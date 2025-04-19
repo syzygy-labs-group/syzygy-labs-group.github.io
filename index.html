@@ -104,7 +104,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted flex-md-shrink-0" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted flex-md-shrink-0" href="tel:+1234567890">Call Now</a>
 
     </div>
   </header>
@@ -120,7 +120,7 @@
             <h1 data-aos="fade-up">Empowering businesses with smart ERP & CRM solutions</h1>
             <p data-aos="fade-up" data-aos-delay="100">We specialize in building efficient, scalable systems to streamline your operations and grow your business.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a href="#about" class="btn-get-started">Get Started <i class="bi bi-arrow-right"></i></a>
+              <a href="tel:+1234567890" class="btn-get-started">Call Now <i class="bi bi-telephone-fill"></i></a>
               <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
@@ -1245,7 +1245,7 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="500">
                   <i class="bi bi-clock"></i>
                   <h3>Open Hours</h3>
-                  <p>Monday - Friday</p>
+                  <p>Monday - Sunday</p>
                   <p>9:00AM - 05:00PM</p>
                 </div>
               </div><!-- End Info Item -->
@@ -1255,33 +1255,26 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form id="syzygy-email" action="https://formspree.io/f/mpwpvzwq" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
+          
                 <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" id="email" class="form-control" name="email" placeholder="you@example.com" required>
                 </div>
-
+          
                 <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea id="message" class="form-control" name="message" rows="6" placeholder="Type your message here..." required></textarea>
                 </div>
-
+          
                 <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
+                  <div class="loading" style="display: none;">Loading</div>
+                  <div class="error-message" style="display: none;"></div>
+                  <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
                   <button type="submit">Send Message</button>
                 </div>
-
+          
               </div>
             </form>
           </div><!-- End Contact Form -->
