@@ -17,6 +17,17 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../fonts/CustomFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sitename {
+  font-family: 'CustomFont', sans-serif;
+}
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
