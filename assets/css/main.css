@@ -74,7 +74,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: 'CustomFont';
+  font-family: var(--default-font);
 }
 
 a {
@@ -95,7 +95,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: 'CustomFont';
+  font-family: var(--heading-font);
 }
 
 /* PHP Email Form Messages
@@ -253,7 +253,7 @@ h6 {
     color: var(--nav-color);
     padding: 18px 12px;
     font-size: 15px;
-    font-family: 'CustomFont';
+    font-family: var(--nav-font);
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -372,7 +372,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
-    font-family: 'CustomFont';
+    font-family: var(--nav-font);
     font-size: 17px;
     font-weight: 500;
     display: flex;
@@ -675,7 +675,7 @@ h6 {
   color: var(--heading-color);
   font-size: 24px;
   font-weight: 600;
-  font-family: 'CustomFont';
+  font-family: var(--heading-font);
 }
 
 .footer .footer-contact p {
@@ -823,7 +823,7 @@ section,
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
-  font-family: 'CustomFont';
+  font-family: var(--default-font);
 }
 
 .section-title p {
@@ -831,7 +831,7 @@ section,
   margin: 10px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  font-family: 'CustomFont';
+  font-family: var(--heading-font);
 }
 
 .section-title p .description-title {
@@ -869,7 +869,7 @@ section,
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-family: 'CustomFont';
+  font-family: var(--heading-font);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
