@@ -27,13 +27,11 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: FlexStart
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Updated: Nov 01 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <!-- Calendly link widget end -->
+
 </head>
 
 <body class="index-page">
@@ -104,7 +102,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted flex-md-shrink-0" href="tel:+1234567890">Call Now</a>
+      <a class="btn-getstarted flex-md-shrink-0" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syzygylabs/30min'}); return false;">Book Now</a>
 
     </div>
   </header>
@@ -120,7 +118,9 @@
             <h1 data-aos="fade-up">Empowering businesses with smart ERP & CRM solutions</h1>
             <p data-aos="fade-up" data-aos-delay="100">We specialize in building efficient, scalable systems to streamline your operations and grow your business.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a href="tel:+1234567890" class="btn-get-started">Call Now <i class="bi bi-telephone-fill"></i></a>
+              <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syzygylabs/30min'}); return false;" class="btn-get-started" rel="noopener noreferrer">
+                Book Now <i class="bi bi-calendar-event-fill"></i>
+              </a>
               <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
@@ -1214,23 +1214,22 @@
           <div class="col-lg-6">
 
             <div class="row gy-4">
-              <div class="col-md-6">
+              <!-- <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
                   <p>A108 Adam Street</p>
                   <p>New York, NY 535022</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div> -->
 
-              <div class="col-md-6">
+              <!-- <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
                   <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
@@ -1244,8 +1243,8 @@
                 <div class="info-item" data-aos="fade" data-aos-delay="500">
                   <i class="bi bi-clock"></i>
                   <h3>Open Hours</h3>
-                  <p>Monday - Sunday</p>
-                  <p>9:00AM - 05:00PM</p>
+                  <p>Monday - Saturday</p>
+                  <p>9:00AM - 09:00PM (PST)</p>
                 </div>
               </div><!-- End Info Item -->
 
