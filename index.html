@@ -32,6 +32,24 @@
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   <!-- Calendly link widget end -->
 
+  <script>
+    const headers = new Headers()
+    headers.append("Content-Type", "application/json")
+
+    const body = {
+      "test": "event"
+    }
+
+    const options = {
+      method: "POST",
+      headers,
+      mode: "cors",
+      body: JSON.stringify(body),
+    }
+
+    fetch("https://eoqkj7iyv0h545b.m.pipedream.net", options)
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XECZEMWSLH"></script>
   <script>
