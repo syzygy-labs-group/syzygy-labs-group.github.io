@@ -33,23 +33,33 @@
   <!-- Calendly link widget end -->
 
   <script>
-    const headers = new Headers()
-    headers.append("Content-Type", "application/json")
-
-    const body = {
-      "test": "event"
+    // Check if the webhook has already been triggered
+    if (!localStorage.getItem("webhookSent")) {
+      const headers = new Headers();
+      headers.append("Content-Type", "application/json");
+  
+      const body = {
+        "test": "event"
+      };
+  
+      const options = {
+        method: "POST",
+        headers,
+        mode: "cors",
+        body: JSON.stringify(body),
+      };
+  
+      fetch("https://eoqkj7iyv0h545b.m.pipedream.net", options)
+        .then(() => {
+          // Mark as sent in localStorage
+          localStorage.setItem("webhookSent", "true");
+        })
+        .catch(err => {
+          console.error("Webhook error:", err);
+        });
     }
-
-    const options = {
-      method: "POST",
-      headers,
-      mode: "cors",
-      body: JSON.stringify(body),
-    }
-
-    fetch("https://eoqkj7iyv0h545b.m.pipedream.net", options)
   </script>
-
+  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XECZEMWSLH"></script>
   <script>
