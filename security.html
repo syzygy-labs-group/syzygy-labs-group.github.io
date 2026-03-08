@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Security | Syzygy Labs</title>
+  <meta name="description" content="Security practices at Syzygy Labs for infrastructure, data protection, engineering operations, and compliance.">
+  <link rel="canonical" href="https://szglabs.com/security.html">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="legal-page">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="Syzygy company logo">
+        <span class="sitename" style="font-size: 1.5rem;">SYZYGY</span>
+      </a>
+      <a class="btn-getstarted flex-md-shrink-0" href="index.html#contact">Contact Us</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section" style="padding-top: 120px;">
+      <div class="container">
+        <div class="section-title">
+          <h2>Security at Syzygy Labs</h2>
+          <p>Effective Date: March 8, 2026</p>
+        </div>
+
+        <p>At Syzygy Labs, security is not an afterthought. It is built into our architecture and delivery processes. Whether we are routing mission-critical data through EDI Nexus or engineering cloud infrastructure, we apply enterprise-grade security controls to protect intellectual property and data integrity.</p>
+
+        <h3>1. Infrastructure and Hosting</h3>
+        <p>Our products and delivery environments are built on Amazon Web Services (AWS) and Microsoft Azure, leveraging enterprise cloud controls.</p>
+        <ul>
+          <li><strong>Physical security:</strong> Cloud provider facilities include controlled access and continuous monitoring.</li>
+          <li><strong>Environment isolation:</strong> Logical separation of customer data and dedicated virtual private cloud boundaries.</li>
+          <li><strong>High availability:</strong> Redundant architecture across multiple availability zones to reduce single points of failure.</li>
+        </ul>
+
+        <h3>2. Data Protection</h3>
+        <p>We treat customer data as a critical asset and apply layered protections.</p>
+        <ul>
+          <li><strong>Encryption in transit:</strong> TLS 1.2+ for web traffic and secure protocols such as SFTP and AS2 for EDI exchanges.</li>
+          <li><strong>Encryption at rest:</strong> Sensitive data stored on encrypted disk volumes using AES-256.</li>
+          <li><strong>Key management:</strong> Automated, managed key lifecycle controls through cloud KMS services.</li>
+        </ul>
+
+        <h3>3. Engineering and DevOps Practices</h3>
+        <p>Security is integrated into development and operations from the beginning.</p>
+        <ul>
+          <li><strong>Infrastructure as Code (IaC):</strong> Terraform-managed infrastructure with version control and peer review.</li>
+          <li><strong>Principle of least privilege:</strong> Access to customer environments is scoped to minimum required permissions.</li>
+          <li><strong>MFA enforcement:</strong> Multi-factor authentication required for administrative accounts and sensitive systems.</li>
+        </ul>
+
+        <h3>4. Workstation and Internal Security</h3>
+        <ul>
+          <li><strong>Device encryption:</strong> Full-disk encryption on engineering workstations.</li>
+          <li><strong>Credential security:</strong> Enterprise password management and hardware-backed security keys for privileged access.</li>
+          <li><strong>Zero-trust approach:</strong> Production data is not stored on local devices; development and testing are performed in controlled environments.</li>
+        </ul>
+
+        <h3>5. Compliance and Monitoring</h3>
+        <ul>
+          <li><strong>DPA support:</strong> Data Processing Addendum (DPA) available with engagements where required.</li>
+          <li><strong>Regulatory alignment:</strong> Security and privacy practices are designed to support obligations under frameworks such as CCPA and GDPR where applicable.</li>
+          <li><strong>Continuous monitoring:</strong> Automated cloud posture and vulnerability monitoring to detect and address risk.</li>
+        </ul>
+
+        <h3>6. Contact</h3>
+        <p>For security-related questions, contact <a href="mailto:sales@szglabs.com">sales@szglabs.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Syzygy Labs, LLC</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
