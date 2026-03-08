@@ -14,21 +14,80 @@
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>EDI Nexus, ERP, and Integration Solutions | Syzygy Labs</title>
-  <meta name="description" content="Syzygy Labs delivers EDI Nexus, a cloud EDI hub SaaS, plus ERP implementation, custom development, BI, and system integration services.">
-  <meta name="keywords" content="">
+  <title>Engineering Team Augmentation, DevOps, and Software Experts | Syzygy Labs</title>
+  <meta name="description" content="Syzygy Labs helps companies augment their engineering teams with DevOps, software engineering, and data pipeline experts, and delivers enterprise integration and automation solutions.">
+  <meta name="keywords" content="engineering team augmentation, DevOps consulting, software engineering team, data pipeline engineers, enterprise integration services">
 
-  <meta property="og:title" content="Syzygy Labs | EDI, ERP, and Integration Solutions">
-  <meta property="og:description" content="Discover EDI Nexus, our cloud EDI hub SaaS, plus ERP implementation and integration services for growing teams.">
+  <meta property="og:title" content="Engineering Team Augmentation, DevOps, and Software Experts | Syzygy Labs">
+  <meta property="og:description" content="Syzygy Labs helps companies augment their engineering teams with DevOps, software engineering, and data pipeline experts, and delivers enterprise integration and automation solutions.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://szglabs.com/assets/img/og-image.jpg">
   <meta property="og:url" content="https://szglabs.com">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Syzygy Labs Group | EDI, ERP, and Integration Solutions">
-  <meta name="twitter:description" content="Cloud EDI with EDI Nexus plus ERP implementation, BI, and custom integration services.">
+  <meta name="twitter:title" content="Engineering Team Augmentation, DevOps, and Software Experts | Syzygy Labs">
+  <meta name="twitter:description" content="Syzygy Labs helps companies augment their engineering teams with DevOps, software engineering, and data pipeline experts, and delivers enterprise integration and automation solutions.">
   <meta name="twitter:image" content="https://szglabs.com/assets/img/twitter-card.jpg">
 
   <link rel="canonical" href="https://szglabs.com/">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Syzygy Labs",
+      "url": "https://szglabs.com/",
+      "logo": "https://szglabs.com/assets/img/logo.png",
+      "email": "sales@szglabs.com",
+      "telephone": "+1-702-530-3654"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Engineering Team Augmentation",
+      "provider": {
+        "@type": "Organization",
+        "name": "Syzygy Labs",
+        "url": "https://szglabs.com/"
+      },
+      "areaServed": "US",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Engineering and Delivery Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "DevOps Engineering Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Software Engineering and Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Data Pipeline Engineering"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Enterprise Integration and Automation Solutions"
+            }
+          }
+        ]
+      }
+    }
+  </script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -54,34 +113,8 @@
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   <!-- Calendly link widget end -->
 
-  <script>
-    // Check if the webhook has already been triggered
-    if (!localStorage.getItem("webhookSent")) {
-      const headers = new Headers();
-      headers.append("Content-Type", "application/json");
-  
-      const body = {
-        "test": "event"
-      };
-  
-      const options = {
-        method: "POST",
-        headers,
-        mode: "cors",
-        body: JSON.stringify(body),
-      };
-  
-      fetch("https://eoqkj7iyv0h545b.m.pipedream.net", options)
-        .then(() => {
-          // Mark as sent in localStorage
-          localStorage.setItem("webhookSent", "true");
-        })
-        .catch(err => {
-          console.error("Webhook error:", err);
-        });
-    }
-  </script>
-
+  <!-- cookiebot -->
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c972a621-0506-4061-bc7d-04a97f38cb9c" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 
 <body class="index-page">
@@ -92,7 +125,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" alt="Syzygy company logo">
-        <h1 class="sitename" style="font-size: 1.5rem;">SYZYGY</h1>
+        <span class="sitename" style="font-size: 1.5rem;">SYZYGY</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -118,17 +151,16 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2 data-aos="fade-up">Cloud EDI, ERP, and integration solutions that scale with your business</h2>
-            <p data-aos="fade-up" data-aos-delay="100">From EDI Nexus, our cloud EDI hub SaaS, to ERP implementation and custom workflows, we help teams automate operations end to end.</p>
+            <h1 data-aos="fade-up">Senior Engineering Teams to Build and Scale Your Systems</h1>
+            <p data-aos="fade-up" data-aos-delay="100">We provide senior DevOps, software, and data pipeline expertise to strengthen your team, plus end-to-end enterprise solution delivery for integration, automation, and custom platforms.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
               <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/szglabs-sales/30min'}); return false;" class="btn-get-started" rel="noopener noreferrer">
                 Free Consultation <i class="bi bi-calendar-event-fill"></i>
               </a>
-              <a href="https://www.youtube.com/watch?v=_4Ln9f36i8Y" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Cloud EDI, ERP, and integration systems">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Expert engineering and enterprise solution delivery illustration">
           </div>
         </div>
       </div>
@@ -144,9 +176,9 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Who We Are</h3>
-              <h2>Experts in EDI automation, ERP systems, and business integration</h2>
+              <h2>Deep Engineering Expertise and End-to-End Platform Delivery</h2>
               <p>
-                At Syzygy Labs, we help businesses streamline operations, automate document exchange, and make data-driven decisions through integrated platforms. Whether you need cloud EDI with EDI Nexus, ERP improvements, or custom system integrations, we build practical solutions that fit your workflow.
+                Syzygy Labs brings two core capabilities: expert engineers embedded into your initiatives (DevOps, software engineering, and data pipelines) and enterprise solution delivery across integrations, automation, and custom platform builds.
               </p>
             </div>
           </div>
@@ -206,15 +238,15 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <h2>Features</h2>
-      <p>Our Advanced Features</p>
+      <h2>Capabilities</h2>
+      <p>How We Deliver Value</p>
     </div><!-- End Section Title -->
 
     <div class="container">
       <div class="row gy-5">
 
         <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
-          <img src="assets/img/features.png" class="img-fluid" alt="ERP and CRM dashboard illustration">
+          <img src="assets/img/features.png" class="img-fluid" alt="Engineering and platform delivery capabilities illustration">
         </div>
 
         <div class="col-xl-6 d-flex">
@@ -223,42 +255,42 @@
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Customizable Dashboards</h3>
+                <h3>DevOps Engineering Support</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Real-Time Inventory Tracking</h3>
+                <h3>Software Development Capacity</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Automated Sales Pipelines</h3>
+                <h3>Data Pipeline Design and Operations</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Customer Relationship Management</h3>
+                <h3>Cloud Integration and Data Exchange</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Integrated Purchase Management</h3>
+                <h3>Enterprise Integrations and Automation</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Insightful Reporting & Analytics</h3>
+                <h3>Custom Platform Build and Modernization</h3>
               </div>
             </div>
 
@@ -276,58 +308,25 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Services</h2>
-      <p>Explore Our Core Offerings</p>
+      <p>How We Help</p>
     </div><!-- End Section Title -->
 
     <div class="container">
       <div class="row gy-4">
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="service-item item-cyan position-relative">
-            <i class="bi bi-gear-wide-connected icon"></i>
-            <h3>ERP Implementation</h3>
-            <p>Deploy and optimize ERP systems tailored to your operations, from discovery and configuration to training and go-live support.</p>
+            <i class="bi bi-people icon"></i>
+            <h3>Expert Engineering Teams</h3>
+            <p>Access proven specialists in DevOps, software engineering/development, and data pipeline implementation. Our experts integrate with your team quickly and execute against your roadmap.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="service-item item-orange position-relative">
-            <i class="bi bi-bar-chart-line icon"></i>
-            <h3>Business Intelligence</h3>
-            <p>Turn raw data into actionable insights with interactive dashboards and automated reports. Perfect for procurement, inventory, and sales analysis.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-item item-teal position-relative">
             <i class="bi bi-code-slash icon"></i>
-            <h3>Custom Development</h3>
-            <p>From lightweight web apps to deep ERP customizations, we build tools that match your exact requirements — no workarounds needed.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-item item-red position-relative">
-            <i class="bi bi-boxes icon"></i>
-            <h3>Inventory & Supply Chain Optimization</h3>
-            <p>Enhance replenishment planning and reduce stockouts with data-driven inventory strategies integrated directly into your ERP.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-item item-indigo position-relative">
-            <i class="bi bi-diagram-3 icon"></i>
-            <h3>EDI Nexus (Cloud EDI Hub SaaS)</h3>
-            <p>Launch faster with EDI Nexus, our cloud EDI platform for onboarding partners, automating document flows, and reducing manual errors.</p>
-            <a href="https://edi.szglabs.com" class="read-more stretched-link" target="_blank" rel="noopener noreferrer"><span>Visit EDI Nexus</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item item-pink position-relative">
-            <i class="bi bi-person-lines-fill icon"></i>
-            <h3>Support & Training</h3>
-            <p>Empower your team with expert training and ongoing support — whether you're onboarding new users or enhancing internal processes.</p>
+            <h3>Enterprise Solutions</h3>
+            <p>We design, build, and integrate enterprise-grade solutions across custom software, connected data workflows, and operational automation. Product accelerators, including EDI Nexus, are available when relevant to your use case.</p>
           </div>
         </div>
 
@@ -342,7 +341,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Frequently Asked Questions</h2>
-      <p>Get answers to common questions about EDI Nexus, ERP implementation, and integration services.</p>
+      <p>Get answers to common questions about our engineering and solution delivery services.</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -354,25 +353,25 @@
           <div class="faq-container">
 
             <div class="faq-item faq-active">
-              <h3>What does Syzygy Labs provide besides ERP services?</h3>
+              <h3>What are your two primary offerings?</h3>
               <div class="faq-content">
-                <p>In addition to ERP implementation and customization, we provide EDI Nexus, a cloud EDI hub SaaS, plus custom development, business intelligence, and integration services to connect your full operations stack.</p>
+                <p>We offer two core services: expert engineering teams and enterprise solution delivery. Engineering services cover DevOps, software engineering/development, and data pipelines. Enterprise solutions cover custom applications, integration architecture, and operational automation.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3>How do I get started with EDI Nexus or ERP implementation?</h3>
+              <h3>How do I get started with your engineering services or a solution build?</h3>
               <div class="faq-content">
-                <p>Start with a consultation call. We assess your current workflows, identify whether EDI Nexus, ERP work, or both are the right fit, and then provide a clear implementation plan with milestones and onboarding steps.</p>
+                <p>Start with a consultation call. We define your priorities and determine whether expert engineering support, solution delivery, or both are the right fit, then provide a clear onboarding and execution plan.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3>Can EDI Nexus and your ERP solutions be customized to our workflows?</h3>
+              <h3>Can your engineers and solutions adapt to our existing workflows?</h3>
               <div class="faq-content">
-                <p>Yes. We support configurable workflows and integrations in EDI Nexus and provide deep ERP customization so your process, data structure, and reporting requirements are reflected in the final solution.</p>
+                <p>Yes. We embed engineers into your delivery process and tailor platforms to your requirements, including integrations, data models, automation flows, and operational constraints.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
@@ -386,33 +385,33 @@
           <div class="faq-container">
 
             <div class="faq-item">
-              <h3>What kind of support do you offer after implementation?</h3>
+              <h3>Do you provide support after delivery starts?</h3>
               <div class="faq-content">
-                <p>We provide post-launch support including troubleshooting, enhancements, and operational guidance to keep your EDI and ERP workflows running smoothly as requirements evolve.</p>
+                <p>Yes. We provide ongoing support, optimization, and transition planning to keep delivery stable and maintain momentum as requirements evolve.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3>Is EDI Nexus cloud-based?</h3>
+              <h3>Do you offer packaged products too?</h3>
               <div class="faq-content">
-                <p>Yes. EDI Nexus is a cloud-based EDI hub SaaS that gives your team secure access without managing on-prem infrastructure, while enabling faster partner onboarding and easier scaling.</p>
+                <p>Yes, when appropriate. Our company page is service-led, but we can bring product accelerators like EDI Nexus into an engagement when they reduce delivery time and implementation risk.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3>How secure are your EDI and ERP solutions?</h3>
+              <h3>How do you handle security and reliability?</h3>
               <div class="faq-content">
-                <p>Security is built into our delivery approach, including strong access controls, encryption, and operational safeguards to protect sensitive business and transaction data.</p>
+                <p>Security and reliability are built into every engagement through access controls, environment hardening, secure pipelines, and operational safeguards for sensitive business data.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
 
             <div class="faq-item">
-              <h3>How long does implementation usually take?</h3>
+              <h3>How quickly can we start?</h3>
               <div class="faq-content">
-                <p>Timelines vary by scope. EDI Nexus onboarding can be fast for standard workflows, while ERP and custom integration projects usually take longer based on complexity, data migration, and testing requirements.</p>
+                <p>Staff augmentation can usually start quickly once scope is aligned. Full solution timelines vary by complexity, integrations, and testing needs.</p>
               </div>
               <i class="faq-toggle bi bi-chevron-right"></i>
             </div><!-- End Faq item-->
@@ -533,10 +532,11 @@
         <div class="col-lg-4 col-md-12 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#hero">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="terms-of-use.html">Terms of Use</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="privacy-policy.html">Privacy Policy</a></li>
             <li id="google_translate_element"></li>
           </ul>
         </div>
@@ -546,7 +546,7 @@
           <p>Found our solutions helpful? Share Syzygy Labs with your network and help us empower more businesses.</p>
           <div class="social-links d-flex">
             <!-- Twitter -->
-            <a href="https://twitter.com/share?url=https://szglabs.com&text=Discover%20smart%20ERP%20%26%20CRM%20solutions%20at%20Syzygy%20Labs!" target="_blank" rel="noopener">
+            <a href="https://twitter.com/share?url=https://szglabs.com&text=Discover%20expert%20engineering%20and%20enterprise%20solutions%20at%20Syzygy%20Labs!" target="_blank" rel="noopener">
               <i class="bi bi-twitter-x"></i>
             </a>
             <!-- Facebook -->
@@ -554,11 +554,11 @@
               <i class="bi bi-facebook"></i>
             </a>
             <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://szglabs.com&title=Syzygy%20Labs%20Group%20-%20Smart%20ERP%20%26%20CRM%20Solutions" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://szglabs.com&title=Syzygy%20Labs%20Group%20-%20Expert%20Engineering%20and%20Enterprise%20Solutions" target="_blank" rel="noopener">
               <i class="bi bi-linkedin"></i>
             </a>
             <!-- WhatsApp -->
-            <a href="https://api.whatsapp.com/send?text=Check%20out%20Syzygy%20Labs%20for%20innovative%20ERP%20%26%20CRM%20solutions:%20https://szglabs.com" target="_blank" rel="noopener">
+            <a href="https://api.whatsapp.com/send?text=Check%20out%20Syzygy%20Labs%20for%20expert%20engineering%20and%20enterprise%20solutions:%20https://szglabs.com" target="_blank" rel="noopener">
               <i class="bi bi-whatsapp"></i>
             </a>
           </div>
