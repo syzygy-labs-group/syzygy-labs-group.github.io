@@ -684,6 +684,11 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.footer .footer-about .footer-logo {
+  max-height: 40px;
+  width: auto;
+}
+
 .footer .footer-contact p {
   margin-bottom: 5px;
 }
