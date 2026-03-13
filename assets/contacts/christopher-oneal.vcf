@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:O'Neal;Christopher;;;
+FN:Christopher O'Neal
+TITLE:CEO & Founder
+ORG:SZG Labs, LLC
+TEL;TYPE=CELL,VOICE:+17025303654
+EMAIL;TYPE=WORK,INTERNET:christopher.oneal@szglabs.com
+URL:https://szglabs.com
+END:VCARD
