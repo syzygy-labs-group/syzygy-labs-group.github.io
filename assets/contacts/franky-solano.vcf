@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Solano;Franky;;;
+FN:Franky Solano
+TITLE:CTO
+ORG:SZG Labs, LLC
+EMAIL;TYPE=WORK,INTERNET:franky.solano@szglabs.com
+URL:https://szglabs.com
+END:VCARD
