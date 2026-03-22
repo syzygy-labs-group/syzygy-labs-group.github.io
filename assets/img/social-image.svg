@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <g transform="translate(227.5, 132.5)">
+    <g fill="none" stroke="#000000" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="70" y="115" width="130" height="130" rx="32" transform="rotate(45 135 180)" />
+      <rect x="142" y="115" width="130" height="130" rx="32" transform="rotate(45 207 180)" />
+    </g>
+    <g fill="#000000" style="font-family: 'Inter', sans-serif; text-transform: uppercase;">
+      <text x="325" y="165" font-size="85" font-weight="800" letter-spacing="4">SZG</text>
+      <text x="325" y="245" font-size="65" font-weight="300" letter-spacing="10">LABS</text>
+    </g>
+  </g>
+</svg>
